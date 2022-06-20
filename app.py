@@ -20,6 +20,10 @@ def index():
 def gal():
     return render_template('gal.html')
 
+@app.route('/arc')
+def arc():
+    return render_template('arc.html')
+
 @app.route('/galpic')
 def galpic():
     return render_template('galpic.html')
@@ -28,9 +32,6 @@ def galpic():
 def about():
     return render_template('about.html')
 
-@app.route('/cont')
-def cont():
-    return render_template('cont.html')
 
 
 if __name__ == '__main__':
