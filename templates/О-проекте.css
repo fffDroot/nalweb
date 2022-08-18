@@ -5,7 +5,7 @@
 .u-section-1 .u-group-1 {
   width: 800px;
   min-height: 353px;
-  margin: 60px auto;
+  margin: 75px 162px 60px auto;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -13,7 +13,7 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 0 auto;
+  margin: 29px auto 0;
 }
 
 .u-section-1 .u-line-1 {
@@ -26,14 +26,16 @@
   margin: 30px 0 0;
 }
 
-.u-section-1 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
+@media (max-width: 1199px) {
+  .u-section-1 .u-group-1 {
+    margin-right: 140px;
+  }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-group-1 {
     width: 720px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-container-layout-1 {
